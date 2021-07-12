@@ -13,6 +13,8 @@ The next part of level 0 is to get the code compiling. The code was originally w
 
 The final part of level 0 is to actually run the code. In a terminal, change to the directory where you put your local copy of the code (specifically the directory where the `DonkeyKong.csproj` file is located). In that directory running `dotnet run` should start the app.
 
+Depending on your terminal and which font it uses, it's possible that some of the special characters used may not display correctly. If the player or Donkey Kong don't show up, try changing which characters are used when displaying them. The code to do that is in [Display.cs](Display.cs) on lines [64](Display.cs#L64) and [75](Display.cs#L75). This has been reported as a problem on MacOS.
+
 ## Level 1
 Now that you've finished level 0, we'll start getting more familiar with the code. This and the remaining levels are much less prescriptive than level 0. Each level has a list of suggested activities to accomplish before moving to the next level. If you want to complete all suggested activities before moving to the next level, that's great. But if you want to move faster that's okay too. If there are other activities that are not in the list of suggested activities that you want to do before moving to the next level, feel free to do so.
 
